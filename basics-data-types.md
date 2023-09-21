@@ -1,4 +1,4 @@
-Data Types
+# Data Types
 int myNum = 5;               // *Integer (whole number)
 float myFloatNum = 5.99f;    // Floating point number
 double myDouble = 5.123098123912 // More precise than a float
@@ -6,7 +6,7 @@ char myLetter = 'D';         // Character
 boolean myBool = true;       // Boolean
 String myText = "Hello";     // String (reference, not primitive)
 
-Typecasting Variables
+## Typecasting Variables
 
 public class Main {
   public static void main(String[] args) {
