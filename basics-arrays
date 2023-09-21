@@ -18,6 +18,14 @@ int[] original = {1,2,3,4,5};
 int[] copy = original.clone(); 
 
 * Handy Array Methods
+.binarySearch()
+.equals()
+.fill()
+.sort()
+.parallelSort()
+.stream()
+.toString()
+
 ** .binarySearch(); 
 Search for a specific value and get the index of it's position // NOTE! Array needs to be sorted for binarySearch to work! 
 int[] numbers = {1, 3, 5, 7, 9, 11, 13, 15};
