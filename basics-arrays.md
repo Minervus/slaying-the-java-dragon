@@ -1,23 +1,23 @@
 Arrays [] 
 
-# Creating and Initializing
+## Creating and Initializing
 int[] myArray = {1,2,3,4,5}; //Creating, initilizing, and populating an array all in one line
 int[] myArray; // Creating an array
 
-# #Multi-Dimensional Arrays
+## #Multi-Dimensional Arrays
 String[][] myMultiArray = {{name1, name2},{age1, age2}}; //Creating an array of arrays
 
-# Copying Arrays
-## System.arraycopy();
+## Copying Arrays
+### System.arraycopy();
 int[] original = {1, 2, 3, 4, 5};
 int[] copy = new int[original.length];
 System.arraycopy(original, 0, copy, 0, original.length);
 
-## .clone(); 
+### .clone(); 
 int[] original = {1,2,3,4,5};
 int[] copy = original.clone(); 
 
-# Handy Array Methods
+## Handy Array Methods
 .binarySearch()
 .equals()
 .fill()
@@ -26,7 +26,7 @@ int[] copy = original.clone();
 .stream()
 .toString()
 
-## .binarySearch(); 
+### .binarySearch(); 
 Search for a specific value and get the index of it's position // NOTE! Array needs to be sorted for binarySearch to work! 
 int[] numbers = {1, 3, 5, 7, 9, 11, 13, 15};
 
@@ -39,4 +39,11 @@ int[] numbers = {1, 3, 5, 7, 9, 11, 13, 15};
       System.out.println(searchFor + " not found. Insertion point: " + (-result - 1));
   }
 
-** 
+### .length
+Use the .length to find the length of an array. .length isn't actually a method - so you dont have to add parentheses. 
+
+int[] numbers = {1,2,3,4}; 
+
+System.out.println(numbers.length);
+
+4 
