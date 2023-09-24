@@ -46,4 +46,27 @@ int[] numbers = {1,2,3,4};
 
 System.out.println(numbers.length);
 
-4 
+## 2D Arrays
+Think of them as an array of arrays. Rows and Columns. 
+
+//initialize a 2D Array with 3 rows and 3 columns
+
+String[][] cars = new Array[3][3]
+
+or
+
+String[][] cars = {
+                    {"Corvette", "Chevrolet", "Mustang"}.
+                    {"Toyota", "Suzuki", "Mitsubishi"},
+                    {"Kia", "Hyundai", "Daihatsu"}
+                    }
+                
+// iterate through array
+
+    for(int i=0; i<cars.length; i++){ // iterates through the rows
+      System.out.println();
+      for(int j=0; j<cars[0].length; j++){ // iterates through the columns
+        System.out.print(cars[i][j] + " " );
+      }
+    }
+
